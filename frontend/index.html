@@ -6,11 +6,20 @@
     <title>Advanced Contract Interface</title>
     <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .section { margin-bottom: 30px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
-        button { padding: 8px 15px; margin: 5px 0; cursor: pointer; }
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; 
+            background: #f2e5fb;text-align: center;}
+        .section { margin-bottom: 30px; padding: 15px; border: 1px solid #f2df30; border-radius: 19px; 
+            background: #f2df30; text-align: center;}
+        button { padding: 8px 15px; margin: 5px 0; cursor: pointer; background: #1efa25; 
+            border: 1px solid #1efa25;}
+        button:hover {background: #a0f7a3;border-color: #a0f7a3;}
         input { padding: 8px; margin: 5px 0; width: 100%; box-sizing: border-box; }
-        .proposal { margin-bottom: 10px; padding: 10px; background: #f5f5f5; }
+        .proposal { margin-bottom: 10px; padding: 10px; 
+            border: 1px solid #f2df30;}
+        #transferAddress, #transferAmount, #proposalDuration, #proposalDescription{background: #e1fbe2; 
+            border: 1px solid #f2df30;}
+            #transferAddress:hover, #transferAmount:hover, #proposalDuration:hover, #proposalDescription:hover {
+                background: #a0f7a3; border-color: #a0f7a3;}
     </style>
 </head>
 <body>
